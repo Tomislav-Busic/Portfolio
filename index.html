@@ -5,6 +5,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Tomislav Bušić</title>
         <link rel = "icon" href ="./assets/images/code.png" type ="image/x-icon">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css">
         <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.1/gsap.min.js" integrity="sha512-cdV6j5t5o24hkSciVrb8Ki6FveC2SgwGfLE31+ZQRHAeSRxYhAQskLkq3dLm8ZcWe1N3vBOEYmmbhzf7NTtFFQ==" crossorigin="anonymous"></script>
         <link rel="stylesheet" href="./assets/style.css">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"/>
@@ -55,10 +56,10 @@
             <div class="max-width">
                 <h2 class="title">About me</h2>
                 <div class="about-content">
-                   <div class="column left">
+                   <div class="column left" data-aos="fade-right">
                        <img src="./assets/images/about.jpg" alt="about">
                    </div>
-                   <div class="column right">
+                   <div class="column right" data-aos="fade-left">
                        <div class="text">I'm Tomislav and I'm a <br><span class="typing-2"></span></div>
                        <p>With a cheerful, optimistic and adventurous spirit. I have been working as a chef and waiter for thirteen years. Creating mods for PC games (RTW2) through a hobby, I discovered an interest in greater achievements in the said field. 
                            I am a Computer Technician by profession and have completed a training program for a Web designer.</p>
@@ -72,7 +73,7 @@
             <div class="max-width">
                 <h2 class="title">My services</h2>
                 <div class="serv-content">
-                   <div class="card">
+                   <div class="card"  data-aos="fade-right">
                        <div class="box">
                            <i class="fas fa-paint-brush"></i>
                            <div class="text">Web design</div>
@@ -84,7 +85,7 @@
                        </div>
                    </div>
 
-                   <div class="card">
+                   <div class="card"  data-aos="fade-left">
                         <div class="box">
                             <i class="fas fa-desktop"></i>
                             <div class="text">Computer Technician</div>
@@ -92,7 +93,7 @@
                         </div>
                     </div>
 
-                    <div class="card">
+                    <div class="card"  data-aos="fade-right">
                         <div class="box">
                             <i class="fas fa-code"></i>
                             <div class="text">Apps design</div>
@@ -108,13 +109,13 @@
             <div class="max-width">
                 <h2 class="title">My skills</h2>
                 <div class="skills-content">
-                    <div class="column left">
+                    <div class="column left" data-aos="fade-right">
                         <div class="text">My creative skills and experience</div>
                         <p> I understand HTML, CSS and JavaScript very well (basic ReactJS). I have a basic knowledge of Java and PHP (MVC) and MySql (Table creation and SQL queries).
-                            I am familiar with the work of Git, Photoshop and use the Linux operating system (Ubuntu).</p>                         
+                            I am familiar with the work of Git, Photoshop, WordPress and use the Linux operating system (Ubuntu).</p>                         
                            <a href="https://github.com/Tomislav-Busic" target="_blank">GitHub</a>
                     </div>
-                    <div class="column right">
+                    <div class="column right" data-aos="fade-left">
                         <div class="bars">
                             <div class="info">
                                 <span>HTML</span>
@@ -155,32 +156,59 @@
             </div>
         </section>
 
-
         <section class="works" id="works">
             <div class="max-width">
                 <h2 class="title">Something I was building</h2>
                 <div class="carousel owl-carousel">
                     <div class="card">
                         <div class="box">
-                            <img src="./assets/images/glistal.png" alt="glistal">
-                            <div class="text">OPG DROZDEK</div>
-                            <p><a href="//tomislav-busic.github.io/glistal/" target="_blank">Glistal </a> IN PROGRESS</p>
+                            <img src="./assets/images/tadema.png" alt="tadema">
+                            <div class="text">TADEMA</div>
+                            <p><a href="https://tadema.hr/" target="_blank">TADEMA</a> Tajana Ištvanić, Sunčica, Blog, Knjige za djecu (WordPress)</p>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="box">
+                            <img src="./assets/images/tbweb.png" alt="tbweb">
+                            <div class="text">TBWeb</div>
+                            <p><a href="http://xn--tomislavbui-vlb28i.com/" target="_blank">TBWeb</a> Web design (WordPress)</p>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="box">
+                            <img src="./assets/images/bazeni.png" alt="bazeni">
+                            <div class="text">BAZENI</div>
+                            <p><a href="https://bazeni-dbe8c.web.app/" target="_blank">https://bazeni-dbe8c.web.app</a> IN PROGRESS, html, css, javascript/ Bootstrap cdn / Font-awesome bootstrap/ Waypoints.js / CounterUp.js / jquery / aos.js / swiper.js / gsap.js / typed.js / font-awesome / OpenStreetMap.. </p>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="box">
+                            <img src="./assets/images/restoran.png" alt="restoran">
+                            <div class="text">RESTORAN "Za vašu dušu"</div>
+                            <p><a href="https://tomislav-busic.github.io/restoran/" target="_blank">https://tomislav-busic.github.io/restoran </a> IN PROGRESS, complete animated responsive food / restaurant website design using html, css, javascript / jquery / aos.js / swiper.js / gsap.js / typed.js / font-awesome / OpenStreetMap.. </p>
                         </div>
                     </div>
                     <div class="card">
                         <div class="box">
                             <img src="./assets/images/salon.png" alt="salon">
                             <div class="text">Frizerski salon</div>
-                            <p><a href="//tomislav-busic.github.io/frizerski-salon/" target="_blank">Frizerski salon </a> In Progress, the images are just an example of what the page should look like.
-                               Fully Responsive Website using HTML, CSS & JavaScript. Font Awesome, GSAP, uiGradients.com  ...</p>
+                            <p><a href="https://salon-81e24.firebaseapp.com/" target="_blank">tomislav-busic.github.io/frizerski-salon</a> In Progress, the images are just an example of what the page should look like.
+                               Fully Responsive Website using HTML, CSS & JavaScript. Font Awesome, GSAP, aos.js, uiGradients.com  ...</p>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="box">
+                            <img src="./assets/images/glistal.png" alt="glistal">
+                            <div class="text">OPG DROZDEK</div>
+                            <p><a href="https://opg-drozdek.hr/" target="_blank">https://opg-drozdek.hr</a>Fully Responsive Website using HTML, CSS & JavaScript. Owl Carousel, Font Awesome, GSAP, jQuery, OpenStreetMap</p>
                         </div>
                     </div>
                     <div class="card">
                         <div class="box">
                             <img src="./assets/images/vinko.png" alt="vinko">
                             <div class="text">Vinkovo Začinsko BILJE</div>
-                            <p><a href="https://vinko-bilje.web.app/" target="_blank">Vinkovo Začinsko BILJE </a>
-                               Fully Responsive Website using HTML, CSS & JavaScript. Owl Carousel, Font Awesome, GSAP, jQuery, OpenStreetMap ... In Progress missing (DNS)</p>
+                            <p><a href="http://xn--opg-senti-3db.hr/" target="_blank">http://xn--opg-senti-3db.hr</a>
+                               Fully Responsive Website using HTML, CSS & JavaScript. Owl Carousel, Font Awesome, GSAP, jQuery, OpenStreetMap</p>
                         </div>
                     </div>
                     <div class="card">
@@ -208,61 +236,6 @@
                         </div>
                     </div>
 
-                    <div class="card">
-                        <div class="box">
-                            <img src="./assets/images/work3.png" alt="Math Game">
-                            <div class="text">Math Game</div>
-                            <p><a href="https://tomislav-busic.github.io/Math-Game/" target="_blank">Simple math game </a> Along the way we'll see how there is an awkward disconnect between our data (how many points we've scored) and our user interface that we want to show on the screen. (Source LearnWebCode)</p>
-                        </div>
-                    </div>
-
-                    <div class="card">
-                        <div class="box">
-                            <img src="./assets/images/work2.png" alt="Calculator">
-                            <div class="text">Calculator</div>
-                            <p><a href="https://tomislav-busic.github.io/Simple-Math-Calculator/" target="_blank">Math Calculator</a> Calculator capable of the basic arithmetic operations like addition, subtraction, division, and multiplication in JavaScript with a nice looking style.</p>
-                        </div>
-                    </div>
-
-                    <div class="card">
-                        <div class="box">
-                            <img src="./assets/images/work4.png" alt="Love Music">
-                            <div class="text">Love Music</div>
-                            <p><a href="https://tomislav-busic.github.io/Zavrsni_rad1/" target="_blank">Zavrsni rad</a> (Web design) HTML, CSS & JavaScript. Non responsive. CSS3 rotate animation & JS quiz Sources - From the book Web design HTML, CSS and JavaScript (Nenad Kojić) & w3schools.</p>
-                        </div>
-                    </div>
-
-                    <div class="card">
-                        <div class="box">
-                            <img src="./assets/images/work5.png" alt="El-dnevnik">
-                            <div class="text">El-dnevnik</div>
-                            <p><a href="https://github.com/Tomislav-Busic/El-dnevnik" target="_blank">El-dnevnik </a>Elektronski Dnevnik.  Dodavanje učenika i dodjela prava. Upis ocjena, pregled imenika, upload zadaće. Različita prava za profesora i učenika. Nastavnik password (1). Među fajlovima je export sql (el_dnevnik). Izvori https://cysecor.rs</p>
-                        </div>
-                    </div>
-
-                    <div class="card">
-                        <div class="box">
-                            <img src="./assets/images/work6.png" alt="Simple blog">
-                            <div class="text">Simple blog</div>
-                            <p><a href="https://github.com/Tomislav-Busic/simple-blog" target="_blank">Simple blog </a>PHP Blog (from the book PHP for Absolute Beginners - Thomas Blom Hansen and Jason Lengstorf, db file simple_blog(1)sql, Administrator: sicbu95@gmail.com password: tomislav)</p>
-                        </div>
-                    </div>
-
-                    <div class="card">
-                        <div class="box">
-                            <img src="./assets/images/work7.png" alt="Task-Tracker">
-                            <div class="text">Task Tracker</div>
-                            <p><a href="https://github.com/Tomislav-Busic/Task-Tracker2" target="_blank">Task Tracker </a>Task-Tracker. Get started with React building a task tracker app and look at components, props, state, hooks, working with an API and more. Source Traversy Media</p>
-                        </div>
-                    </div>
-
-                    <div class="card">
-                        <div class="box">
-                            <img src="./assets/images/work8.png" alt="Image Gallery">
-                            <div class="text">Image Gallery</div>
-                            <p><a href="https://github.com/Tomislav-Busic/Image-Gallery" target="_blank">Image Gallery </a>PHP Image Gallery (from the book PHP for Absolute Beginners - Thomas Blom Hansen and Jason Lengstorf)</p>
-                        </div>
-                    </div>
                 </div>
             </div>
         </section>
@@ -271,7 +244,7 @@
             <div class="max-width">
                 <h2 class="title">Contact me</h2>
                 <div class="contact-content">
-                    <div class="column left">
+                    <div class="column left" data-aos="fade-right">
                         <div class="text">Get in Touch</div>
                         <p>I'm seeking out opportunities to collaborate with companies / agencies / individuals, not
                             just work for them. I want to bring my collective design experience to the table where we 
@@ -279,7 +252,7 @@
                             respective experience and knowledge.  
                         </p>
                     </div>
-                    <div class="column right">
+                    <div class="column right" data-aos="fade-left">
                         <div class="icons">
                             <div class="row">
                                 <i class="fas fa-user"></i>
@@ -345,9 +318,21 @@
 
         <div class="intro">
             <div class="intro-text">
-                <div class="hide">
-                    <span class="text1">I'm a</span>
-                </div>
+                    <div class="hide">
+                        <h2>
+                            <span class="text1">Hello, my name is</span>
+                        </h2>
+                    </div>
+                    <div class="hide">
+                        <h2>
+                            <span class="text2">Tomislav Bušić</span>
+                        </h2>
+                    </div>
+                    <div class="hide">
+                        <h2>
+                            <span class="text3">And I'm a</span>
+                        </h2>
+                    </div>
                 <video src="./assets/smoke.mp4" type="video/mp4" muted></video>
                <h1>
                    <span class="intro-w">W</span>
@@ -376,7 +361,17 @@
         </footer>
 
         
-        
+
+
+        <!--aos cdn link-->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+        <!--initializing aos-->
+        <script>
+            AOS.init({
+                delay:400,
+                duration: 1300
+            });
+        </script>
         <script src="./assets/script.js"></script>
     </body>
 </html>
