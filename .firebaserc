@@ -1,0 +1,15 @@
+{
+  "projects": {
+    "default": "tomislav-busic"
+  },
+  "targets": {
+    "tomislav-busic": {
+      "hosting": {
+        "app": [
+          "TOMISLAV_BUSIC"
+        ]
+      }
+    }
+  },
+  "etags": {}
+}
